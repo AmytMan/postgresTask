@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Merienda", cursive;
+}
+
+form span {
+  color: red;
+}
+
+form span::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+input,
+textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccd0d5;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+button[type="submit"],
+input[type="submit"] {
+  background: #77a7ff;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background: #1877f2;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
